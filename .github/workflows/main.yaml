@@ -19,4 +19,4 @@ jobs:
       - name: Test with Checkov
         run: |
           pip install checkov
-          checkov -d scan-target/.
+          checkov -d .
